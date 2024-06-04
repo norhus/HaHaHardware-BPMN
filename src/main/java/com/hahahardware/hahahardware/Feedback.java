@@ -24,8 +24,11 @@ public class Feedback implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("serviceType")
 	private java.lang.String serviceType;
 
-	@org.kie.api.definition.type.Label(value = "timestamp")
-	private java.lang.String timestamp;
+	@org.kie.api.definition.type.Label("isProcessed")
+	private java.lang.Boolean isProcessed;
+
+	@org.kie.api.definition.type.Label(value = "timeStamp")
+	private java.lang.String timeStamp;
 
 	public Feedback() {
 	}
@@ -87,12 +90,20 @@ public class Feedback implements java.io.Serializable {
 		this.serviceType = serviceType;
 	}
 
-	public java.lang.String getTimestamp() {
-		return this.timestamp;
+	public java.lang.Boolean getIsProcessed() {
+		return this.isProcessed;
 	}
 
-	public void setTimestamp(java.lang.String timestamp) {
-		this.timestamp = timestamp;
+	public void setIsProcessed(java.lang.Boolean isProcessed) {
+		this.isProcessed = isProcessed;
+	}
+
+	public java.lang.String getTimeStamp() {
+		return this.timeStamp;
+	}
+
+	public void setTimeStamp(java.lang.String timeStamp) {
+		this.timeStamp = timeStamp;
 	}
 
 	public Feedback(java.lang.String id, java.lang.Integer overallRating,
@@ -100,7 +111,7 @@ public class Feedback implements java.io.Serializable {
 			java.lang.Integer serviceQualityRating,
 			java.lang.Integer communicationQualityRating,
 			java.lang.String text, java.lang.String serviceType,
-			java.lang.String timestamp) {
+			java.lang.Boolean isProcessed, java.lang.String timeStamp) {
 		this.id = id;
 		this.overallRating = overallRating;
 		this.timeRating = timeRating;
@@ -108,7 +119,8 @@ public class Feedback implements java.io.Serializable {
 		this.communicationQualityRating = communicationQualityRating;
 		this.text = text;
 		this.serviceType = serviceType;
-		this.timestamp = timestamp;
+		this.isProcessed = isProcessed;
+		this.timeStamp = timeStamp;
 	}
 
 }

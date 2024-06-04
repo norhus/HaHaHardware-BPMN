@@ -1,0 +1,1 @@
+{"id":"798a1d7c-3bfb-4513-bd1e-4bf14516ef88","name":"HandOver-taskform.frm","model":{"taskName":"HandOver","processId":"HaHaHardware.Repairaproduct","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}

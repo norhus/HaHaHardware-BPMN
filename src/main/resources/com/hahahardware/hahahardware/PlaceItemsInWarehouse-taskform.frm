@@ -1,0 +1,1 @@
+{"id":"9b2f1fcc-b946-4212-a469-69c92c32ee61","name":"PlaceItemsInWarehouse-taskform.frm","model":{"taskName":"PlaceItemsInWarehouse","processId":"HaHaHardware.Reorderstock","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":3,"style":"FLUID","layoutProperties":{},"rows":[]}}
